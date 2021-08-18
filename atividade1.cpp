@@ -2,12 +2,12 @@
 
 int main(){
 
-    int tempoDaViagem = 0;
+    float tempoDaViagem = 0;
     float velocidadeMedia = 0.0;
     float distancia = 0.0;
     float litroUsado = 0.0;
 
-    std::cout<< "Digite o tempo da sua viagem[em minutos]: ";
+    std::cout<< "Digite o tempo da sua viagem: ";
     std::cin>> tempoDaViagem;
     std::cout<< "Digite a velocidade meédia: ";
     std::cin>> velocidadeMedia;
